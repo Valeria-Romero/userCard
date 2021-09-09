@@ -5,45 +5,47 @@
 	}
 
 .main{
-    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
     width: 600px;
-    border: 5px solid grey;
-
+    border: 3px solid grey;
+    padding-bottom: 30px;
 }
 
-.blue{
+.cardheader{
     margin-left: 0;
     background-color: #17a2b8;
-    height: 100px;
+    height: 75px;
     width: 600px;
 }
 
 .user{
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
     height: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 
-.information{
-    position: absolute;
-    top: 75px;
-    margin-left: 40px;
+.cardinformation{
+    padding-left: 40px;
+    margin-top: 60px;
 }
 
 .location{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: left;
     margin-bottom: 15px;
 }
 
 h1{
     margin-bottom: 10px;
 }
-.pin{
-    height: 20px;
-    margin-right: 10px;
-}
-
-.gear{
+.pin, .gear{
     height: 20px;
     margin-right: 10px;
 }
