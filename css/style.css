@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+
+.main{
+    margin: 30px auto;
+    width: 600px;
+    border: 5px solid grey;
+
+}
+
+.blue{
+    margin-left: 0;
+    background-color: #17a2b8;
+    height: 100px;
+    width: 600px;
+}
+
+.user{
+    height: 100px;
+}
+
+.information{
+    position: absolute;
+    top: 75px;
+    margin-left: 40px;
+}
+
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+.pin{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.gear{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a{
+    color: #307ce4;
+}
